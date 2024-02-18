@@ -1,0 +1,23 @@
+{
+    "name": "alfredoviera/app-salon_php_mvc_js_sass",
+    "description": "PHP 8, MVC, JS, SASS",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Clases\\" : "./clases"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vierax",
+            "email": "vieraalfredoj@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
